@@ -1,11 +1,12 @@
 {
   "name": "react-native-gst-player",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "A React Native component for playing RTSP streams using GStreamer",
   "main": "index.js",
   "private": false,
   "scripts": {
-    "postinstall": "node scripts/setup_gstreamer.js"
+    "start": "react-native start",
+    "test": "jest"
   },
   "keywords": [
     "react-native",
@@ -15,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vishalsingh0007/react-native-gst-player.git"
+    "url": "https://github.com/vishalsingh0007/react-native-gst-player.git"
   },
   "author": "Vishal Singh <vishalsingh071819@gmail.com>",
   "license": "MIT",
